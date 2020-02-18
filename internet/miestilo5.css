@@ -1,0 +1,198 @@
+/* *{
+    outline: 1px solid;
+} */
+.container{
+    width: 970px;
+    /* background-color: teal; */
+    margin: 0px auto;
+    background: rgb(210,213,213);
+background: linear-gradient(180deg, rgba(210,213,213,1) 0%, rgba(255,254,253,1) 40%);
+}
+.cabecera{
+    
+    background-color: white;
+    width: 100%;
+    
+}
+    .cabecera img{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        
+    }
+    .cabecera h1{
+        vertical-align: top;
+        font-size: 43px;
+        margin-top: 26px;
+        display: inline-block;
+        
+        
+    }
+    .cabecera span{
+        color:blue;
+    }
+.inicioweb{
+    color: white;
+    display: block;
+    margin-top: -20px;
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+    background: rgb(69,67,70);
+    background: linear-gradient(0deg, rgba(69,67,70,1) 0%, rgba(145,145,145,1) 50%, rgba(69,67,70,1) 100%);
+}
+.sidebar{
+    display: inline-block;
+    width: 25%;
+}
+    .a1{
+        margin: auto;
+        font-size: 18px;
+        font-weight: bold;
+        width: 90%;
+    }
+    .a2{
+        margin: 10px auto;
+        font-weight: bold;
+        width: 90%;
+    }
+    .a2 span{
+        color: #4079aa;
+    }
+    .sidebar .video{
+        background-color: rgb(11, 51, 184);
+        margin-bottom: 10px;
+        
+    }
+    .sidebar .resour {
+        background-color: darkgoldenrod;
+        margin-bottom: 10px;
+        
+    }
+    .sidebar button{
+        display: block;
+        margin: 0px auto;
+        width: 90%;
+        border-radius: 5px;
+        color: white;
+        font-weight: bold;
+        padding: 8px 20px;
+        -webkit-box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+	    box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+    }
+    .ninja{
+        background-image: url('./images/ad_background.png');
+        width: 100%;
+        height: 270px;
+    }
+    .titleSide{
+        color: white;
+        margin: 0px auto;
+        width: 57%;
+        text-align: center;
+        padding: 10px;
+    }
+    .imgninja{
+        display: block;
+        width: 35%;
+        margin: 0px auto;
+    }
+    .ninjabutton{
+        background-color: #4fcbde;
+        display: block;
+        margin-top: 10px !important;
+        margin: 0px auto;
+        width:80% !important;
+        border-radius: 5px;
+        font-weight: bold;
+        padding: 6px 20px !important;
+        -webkit-box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+	    -moz-box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+	    box-shadow: 10px 10px 11px -10px rgba(0,0,0,0.75);
+    }
+    .content{
+        display: inline-block;
+        /* background-color: yellow; */
+        vertical-align: top;
+        width: 680px;
+        margin-left: 35px;
+        margin-top: -15px;
+
+    } 
+    .superior{
+        display: inline-block;
+    }
+    .icono{
+        width: 8%;
+    }
+    .casa{
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 16px;
+    }
+    .dns{
+        display: inline-block;
+    }
+
+    .contacto{
+        display: inline-block;
+        margin-left: 150px;
+    }
+    .teleicono{
+        display: inline-block;
+    }
+    .telefono{
+        width: 40px;
+    }
+    .datos{
+        display: inline-block;
+    }
+    .d1{
+        font-size: 10px;
+        margin-block-end: -22px;
+        margin-block-start: 0px;
+    }
+    .d2{
+       font-size: 23px;
+       color: cadetblue;
+       margin-block-end: -9px;
+       font-weight: bold;
+    }
+    .d3{
+       font-size: 10px;
+    }
+ 
+    .cs li{
+        margin-left: 30px;
+    }
+    .cliente{
+        color: darkblue;
+    }
+    
+    .cajafinal{
+        display: inline-flex;
+        border-style: solid;
+        border-color: cyan;
+        border-width: 5px;
+        
+    }
+    .imagencirculos{
+       
+        text-align: center;
+    }
+    .imagencirculos img{
+        width: 220px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .textofinal{
+        display: inline-block;
+        vertical-align: top;
+    }
+    .textofinal h3{
+        color: darkblue;
+    }
+    .textofinal a{
+        font-size: 24px;
+    }
